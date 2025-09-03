@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.profile{
+    width: 400px;
+    height: 400px;
+    background-image: url(https://www.whitehouse.gov/wp-content/uploads/2025/01/Donald-J-Trump.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    border-radius: 50%;
+}
+.box{
+    height: 70px;
+    width: 70px;
+    background-color: rgb(3, 253, 3);
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    left: 270px;
+    top: 320px;
+}

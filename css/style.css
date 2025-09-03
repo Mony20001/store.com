@@ -1,0 +1,24 @@
+.Box{
+    width: 200px;
+    height:200px;
+    background-color: rgb(251, 249, 249);
+    color: rgb(240, 8, 8);
+    border-radius:20px;
+    border: 5px solid rgb(22, 22, 24);
+    box-sizing: border-box;
+    box-shadow: 5px 5px 15px rgb(245, 3, 55);
+    text-align: center;
+    margin: 200px 200px 100px ;
+}
+.Box1{
+    width: 200px;
+    height:200px;
+    background-color: rgb(251, 249, 249);
+    color: rgb(240, 8, 8);
+    border-radius:20px;
+    border: 5px solid rgb(22, 22, 24);
+    box-sizing: border-box;
+    box-shadow: 5px 5px 15px rgb(6, 29, 239);
+    text-align: center;
+    margin: 100px 200px 100px ;
+}

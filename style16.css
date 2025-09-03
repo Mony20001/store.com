@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    height: 400vh;
+    width: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+
+}
+.container{
+    width: 100%;
+    height:100vh;
+    background-image: url(https://images.saymedia-content.com/.image/t_share/MTkzNzg4MTIxMjM2NjQ1MzE1/aesthetic-website-backgrounds.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: sticky;
+}
+.container>.sidbar{
+    width: 100%;
+    height: 85px;
+    background-color: rgb(249, 236, 245);
+    /* position: sticky; */
+}
+h2{
+    margin-left: 5%;
+    color: purple;
+    margin-top: 25px;
+    /* position: sticky; */
+}
+.text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 33px;
+    padding-left: 60%;
+    color: rgb(66, 66, 66);
+    list-style: none;
+    position: relative;
+}
+.text>:hover{
+    color: rgb(83, 62, 246);
+    transition: all 0.3s ease-in-out;
+    text-decoration: underline 2px;
+    text-underline-offset: 8px;
+    cursor: pointer;
+    
+}
+.text2{
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 50px;
+    align-items: center;
+}
+.text2>p{
+     padding-top: 50%;
+     position :absolute;
+}
+.sidbar>p{
+     padding-top: 5%;
+     color: rgb(230, 229, 229);
+     font-size: 20px;
+     display: flex;
+     justify-content: center;
+}
