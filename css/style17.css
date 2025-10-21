@@ -527,6 +527,5 @@ input:focus,textarea:focus{
   flex-direction: row;
   gap: 50%;
   list-style: none;
-  position: absolute;
-  
+  padding-top: 25%;
 }
