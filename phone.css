@@ -85,3 +85,23 @@ nav{
     padding-left: 10px;
 
 }
+.footer{
+    height: 440px;
+    width: 100%;
+    background-color: #212529;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+}
+.info{
+    height: 450px;
+    width: 32%;
+}
+.product>p:hover{
+    color: green;
+    
+}
+.info1>p:hover{
+    color: green;
+}
