@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<style>
+    .card{
+        height: 400px;
+        width: 400px;
+        background-color: blue;
+        border-radius: 20px;
+    }
+    button{
+     margin: 20px 10px;
+    }
+</style>
+<body>
+     <div class="card"></div>
+
+     <button id="down">Slide Down</button>
+     <button id="up">Slide Up</button>
+     <button id="toggle">Slide toggle</button>
+
+     <!-- <button id="hide">Hide</button>
+     <button id="show">Show</button>
+     <button id="toggle">toggle</button> -->
+
+     <!-- <button id="out">Out</button>
+     <button id="in">In</button>
+     <button id="toggle">Toggle</button> -->
+</body>
+<script>
+    $(document).ready(function(){
+         $('#down').click(function(){
+            $('.card').slideDown(500);
+         })
+         $('#up').click(function(){
+            $('.card').slideUp(500);
+         })
+         $('#toggle').click(function(){
+         $('.card').slideToggle(500);
+         })
+    });
+
+    // $(document).ready(function(){
+
+    // $('#hide').click(function(){
+    //      $('.card').hide(500);
+    // })
+    // $('#show').click(function(){
+    //      $('.card').show(500);
+    // })
+    // $('#toggle').click(function(){
+    //      $('.card').toggle(500);
+    // })
+
+    // });
+
+    // $(document).ready(function(){
+
+    // $('#out').click(function(){
+    //      $('.card').fadeOut(1000);
+    // })
+    // $('#in').click(function(){
+    //      $('.card').fadeIn(1000);
+    // })
+    // $('#toggle').click(function(){
+    //      $('.card').fadeToggle(1000);
+    // })
+
+    // });
+</script>
+</html>
